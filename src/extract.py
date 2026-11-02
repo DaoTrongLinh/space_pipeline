@@ -9,5 +9,3 @@ my_params = {
 
 response = requests.get(url, params = my_params)
 print(response.json())
-
-
